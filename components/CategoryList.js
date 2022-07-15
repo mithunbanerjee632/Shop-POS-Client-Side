@@ -85,7 +85,7 @@ class CategoryList extends Component {
                                 <Card.Body>
                                     <Container fluid={true}>
                                         <Row>
-                                            <Col><h4 className="table-title">User List</h4></Col>
+                                            <Col><h4 className="table-title">Category List</h4></Col>
                                             <Col><button onClick={this.handleOpen} className="float-end circular-btn"><i className="fa fa-plus"/></button></Col>
                                         </Row>
                                     </Container>
