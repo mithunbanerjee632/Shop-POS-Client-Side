@@ -145,7 +145,7 @@ class ReportList extends Component {
                 name: 'Invoice',
                 selector: 'id',
                 sortable: true,
-                cell: row => <button   className="btn btn-danger">Print Invoice</button>
+                cell: row => <button   className="btn btn-sm btn-danger">Print Invoice</button>
             },
 
         ];
@@ -159,14 +159,14 @@ class ReportList extends Component {
                             <Card>
                                 <Card.Body>
                                     <Container fluid={true}>
-                                        <Row className="mt-2">
+                                        <Row>
                                             <Col md={6}>
                                                 <div className="input-group">
                                                     <h4 className="table-title mr-2">Report</h4>
 
-                                                    <input type="date" className="form-control mx-2"/>
-                                                    <input type="date" className="form-control mx-2"/>
-                                                    <button   className="btn btn-danger mx-2">Print Invoice</button>
+                                                    <input type="date" className="form-control form-control-sm mx-2"/>
+                                                    <input type="date" className="form-control form-control-sm mx-2"/>
+                                                    <button   className="btn btn-sm btn-danger mx-2">Print Invoice</button>
                                                 </div>
                                             </Col>
 
